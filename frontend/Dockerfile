@@ -12,7 +12,7 @@ ARG VITE_CHUNK_SIZE=5242880
 ARG VITE_CHAT_MODES=""
 ARG VITE_ENV="DEV"
 ARG VITE_BATCH_SIZE=2
-ARG VITE_LLM_MODELS_PROD="openai_gpt_4o,openai_gpt_4o_mini,diffbot,gemini_1.5_flash"
+ARG VITE_LLM_MODELS_PROD="openai_gpt_4o,openai_gpt_4o_mini"
 
 WORKDIR /app
 COPY package.json yarn.lock ./

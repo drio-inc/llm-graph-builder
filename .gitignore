@@ -172,4 +172,6 @@ google-cloud-cli-linux-x86_64.tar.gz
 .vennv
 newenv
 files
+frontend/src/assets/images/.goutputstream-1F8902
+backend/backend.env
 
